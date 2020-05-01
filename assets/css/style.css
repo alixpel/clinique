@@ -66,7 +66,7 @@ body {
 header {
 	background-color: rgb(0, 38, 77);
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 4rem;
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
 	width: 90%;
@@ -100,11 +100,6 @@ header {
 	font-weight: 100;
 }
 
-.col-md-auto {
-	border: 1px solid grey;
-	margin: auto;
-}
-
 .col-md-auto.inline {
 	border: 1px solid grey;
 	margin: auto;
@@ -117,8 +112,17 @@ header {
 .p-2.bd-highlight {
 	display: flex;
 	justify-content: center;
+  margin: 0rem;
 }
 
+.search-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+}
 
 .fiches {
 	color: black;
@@ -372,10 +376,13 @@ p.text-justify {
 	line-height: 1.5rem;
 }
 
-span {
-	color: white;
+p.text-center {
+  font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.2rem;
+  color: white;
 	text-align: center;
-	font-size: 0.9rem;
+	line-height: 1.5rem;
 }
 
 .round {
@@ -401,10 +408,10 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	margin-top: 36px;
-	margin-bottom: 20px;
-	font-size: 1.4em;
+	font-weight: 300;
+	margin-top: 10rem;
+	margin-bottom: 4rem;
+	font-size: 2.4rem;
 }
 
 h3 {
@@ -514,15 +521,17 @@ ul {
 /* INPUTS */
 
 #site-search {
-	font-size: 0.85rem;
-	height: 1.9rem;
+	font-size: 1.2rem;
+	height: 3rem;
+  width: 100%;
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
 }
 
 input {
 	border: 0px;
 	box-shadow: none;
 	border-radius: 2px;
-	width: 45%;
+	/* width: 45%; */
 	height: 1.6rem;
 	padding-left: 1rem;
 	font-family: 'Roboto', sans-serif;
@@ -545,6 +554,13 @@ img {
 
 .btn.btn-outline-info {
 	float: right;
+}
+
+#search {
+  padding-top: 0.6rem;
+  width: 23%;
+  height: 3rem;
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
 }
 
 .btn.btn-outline-light {
