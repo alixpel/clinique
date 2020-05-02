@@ -121,6 +121,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-top: 1.6rem;
   width: 40%;
 }
 
@@ -275,6 +276,7 @@ main {
 
 .card.text-left.single {
 	margin-left: 2rem;
+  margin-top: 1.5rem;
 }
 
 .card-body {
