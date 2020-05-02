@@ -154,24 +154,21 @@ header {
 .container-md {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid rgrey;
 }
-
-
-.ressources1 {
-	text-align: center;
-	border: 1px solid grey;
-}
-
 
 .container-sm {
-	border: 1px solid grey;
 }
 
 .ressources {
-	background-color: rgb(220, 220, 220);
-	padding: 3.5rem 0rem;
-	border: 1px solid grey;
+	background-color: rgb(245, 245, 245);
+	padding: 6rem 0rem;
+}
+
+.ressources1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	text-align: center;
 }
 
 .d-flex.justify-content-center {
@@ -183,7 +180,6 @@ header {
 }
 
 .ressources1 {
-	border: 1px solid grey;
 	width: 25%;
 }
 
@@ -358,10 +354,11 @@ p {
 }
 
 p.grey {
-	color: grey;
-	font-size: 0.8rem;
+	color: #86939e;
+	font-size: 1rem;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
+  line-height: 1.6rem;
 }
 
 p.text-left {
@@ -435,7 +432,9 @@ h3 {
 	margin-top: 0.9rem;
 	margin-bottom: 0.8rem;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
+  font-size: 1.3rem;
+  color: #43484d;
 }
 
 h5.card-title {
@@ -464,7 +463,8 @@ i.fas.fa-heartbeat {
 }
 
 i.fas.fa-book, i.fas.fa-book-reader, i.fas.fa-book-medical {
-	color: grey;
+	color: #CCCCCC;
+  font-size: 3rem;
 }
 
 i.fas.fa-heartbeat {
