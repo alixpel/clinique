@@ -538,7 +538,7 @@ i {
 	margin-left: 10px;
 }
 
-i.fas.fa-heartbeat {
+i.fas.fa-heartbeat.big {
 	font-size: 1.6em;
 	margin-right: 10px;
 	margin-left: 0px;
@@ -579,23 +579,6 @@ ul {
 .list-group-item {
 	margin-left: 0rem;
 	padding-left: 0rem;
-}
-
-.stafflist {
-	color: rgb(80, 80, 80);
-}
-
-.stafflist:hover {
-	color: rgb(30, 30, 30);
-	text-decoration: none;
-}
-
-.listing {
-  margin: 0;
-  height: 160px;
-  columns: 3;
-	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 .align-top {
@@ -730,7 +713,7 @@ fieldset {
 
 h1.form-main-title {
   margin-top: 4.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5.6rem;
   font-size: 2rem;
 }
 
@@ -754,6 +737,11 @@ label.form-page-label {
 }
 
 /* STAFF */
+
+.staff-columns {
+  margin: auto;
+  width: 65%;
+}
 
 .presentation {
 	display: flex;
@@ -785,9 +773,13 @@ img.roundpicture {
 }
 
 .map {
-	display: flex;
 	border: 1px solid grey;
+  width: 65.3%;
+  margin: auto;
+}
 
+iframe {
+  width: 100%;
 }
 
 .calendar {
@@ -800,4 +792,46 @@ img.roundpicture {
 	border: 1px solid grey;
 	text-align: justify;
 	padding: 10px;
+}
+
+.stafflist {
+	color: rgb(80, 80, 80);
+}
+
+.stafflist:hover {
+	color: rgb(30, 30, 30);
+	text-decoration: none;
+}
+
+.listing {
+  margin: 0;
+  /* height: 160px; */
+  /* columns: 3; */
+	margin-top: 40px;
+	margin-bottom: 0.8rem;
+}
+
+i.fas.fa-heartbeat.small {
+	font-size: 1.3em;
+	margin-right: 1rem;
+  color: #7dc855;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li.stafflist-li {
+  width: 15rem;
+  background-color: rgb(240, 240, 240);
+  padding: 0.3rem 0.1rem 0.1rem 0.1rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+a.stafflist {
+  line-height: 2.1rem;
+  margin-left: 1rem;
 }

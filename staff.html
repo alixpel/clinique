@@ -22,47 +22,74 @@
 	</head>
 	<body>
 
+		<header class="form-header">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<div class=logo>
+	          <a href="index.html"><p class="top-logo"><span><i class="fas fa-user-md"></i> Centre de Santé</span></p></a>
+	        </div>
+          <div class="quicklink"><!-- liens en haut dropdown-->
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-outline-light">Home</button>
+              <button type="button" class="btn btn-outline-light">Archive</button>
+              <button type="button" class="btn btn-outline-light">Browse</button>
+              <button type="button" class="btn btn-outline-light">Mon espace</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="form.html">Formulaire de rdv</a>
+                  <a class="dropdown-item" href="bosses.html">Notre direction</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+			<h1 class="form-main-title">Centre de Santé Framboise Paré</h1>
+			</div>
+		</header>
 		<div class="container">
-			<header>
-				<div class=logo>
-					<a href="index.html"><p><span><i class="fas fa-user-md"></i>Centre de Santé Framboise Paré</span></p></a>
-				</div>
-			</header>
-
-			<nav>
-				<ul class=listing>
-					<li><a class="stafflist" href="#jeanenNemar"><i class="fas fa-heartbeat"></i>Jeanne Nemar</a><br /></li>
-					<li><a class="stafflist" href="#maloGenou"><i class="fas fa-heartbeat"></i>Malo Genou</a><br /></li>
-					<li><a class="stafflist" href="#neelaRagostra"><i class="fas fa-heartbeat"></i>Neela Ragostra</a><br /></li>
-					<li><a class="stafflist" href="#framboisePare"><i class="fas fa-heartbeat"></i>Framboise Paré</a><br /></li>
-					<li><a class="stafflist" href="#robertoRomano"><i class="fas fa-heartbeat"></i>Roberto Romano</a><br /></li>
-					<li><a class="stafflist" href="#jamilaFakiri"><i class="fas fa-heartbeat"></i>Jamila Fakiri</a><br /></li>
-					<li><a class="stafflist" href="#claudeGalien"><i class="fas fa-heartbeat"></i>Claude Galien</a><br /></li>
-					<li><a class="stafflist" href="#virginieHenderson"><i class="fas fa-heartbeat"></i>Virginie Henderson</a><br /></li>
-					<li><a class="stafflist" href="#charlotteCordee"><i class="fas fa-heartbeat"></i>Charlotte Cordée</a><br /></li>
-					<li><a class="stafflist" href="#dougRoss"><i class="fas fa-heartbeat"></i>Douglas Ross</a><br /></li>
-					<li><a class="stafflist" href="#lukaKovak"><i class="fas fa-heartbeat"></i>Luka Kovak</a><br /></li>
-					<li><a class="stafflist" href="#abbyLockhart"><i class="fas fa-heartbeat"></i>Abby Lockhart</a><br /></li>
-					<li><a class="stafflist" href="#jeanneBoulet"><i class="fas fa-heartbeat"></i>Jeanne Boulet</a><br /></li>
-					<li><a class="stafflist" href="#peterBenton"><i class="fas fa-heartbeat"></i>Peter Benton</a><br /></li>
-					<li><a class="stafflist" href="#kerryWeaver"><i class="fas fa-heartbeat"></i>Kerry Weaver</a><br /></li>
-					<li><a class="stafflist" href="#johnCarter"><i class="fas fa-heartbeat"></i>John Carter</a><br /></li>
-					<li><a class="stafflist" href="#lucyKnight"><i class="fas fa-heartbeat"></i>Lucy Knight</a><br /></li>
-					<li><a class="stafflist" href="#carolHataway"><i class="fas fa-heartbeat"></i>Carol Hataway</a><br /></li>
-				</ul>
-			</nav>
-
-		<hr>
+			<div class="staff-columns">
+				<nav>
+					<ul class=listing>
+						<li class="stafflist-li"><a class="stafflist" href="#jeanenNemar"><i class="fas fa-heartbeat small"></i>Jeanne Nemar</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#maloGenou"><i class="fas fa-heartbeat small"></i>Malo Genou</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#neelaRagostra"><i class="fas fa-heartbeat small"></i>Neela Ragostra</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#framboisePare"><i class="fas fa-heartbeat small"></i>Framboise Paré</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#robertoRomano"><i class="fas fa-heartbeat small"></i>Roberto Romano</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#jamilaFakiri"><i class="fas fa-heartbeat small"></i>Jamila Fakiri</a><br /></li>
+					</ul>
+					<ul class=listing>
+						<li class="stafflist-li"><a class="stafflist" href="#claudeGalien"><i class="fas fa-heartbeat small"></i>Claude Galien</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#virginieHenderson"><i class="fas fa-heartbeat small"></i>Virginie Henderson</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#charlotteCordee"><i class="fas fa-heartbeat small"></i>Charlotte Cordée</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#dougRoss"><i class="fas fa-heartbeat small"></i>Douglas Ross</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#lukaKovak"><i class="fas fa-heartbeat small"></i>Luka Kovak</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#abbyLockhart"><i class="fas fa-heartbeat small"></i>Abby Lockhart</a><br /></li>
+					</ul>
+					<ul class=listing>
+						<li class="stafflist-li"><a class="stafflist" href="#jeanneBoulet"><i class="fas fa-heartbeat small"></i>Jeanne Boulet</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#peterBenton"><i class="fas fa-heartbeat small"></i>Peter Benton</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#kerryWeaver"><i class="fas fa-heartbeat small"></i>Kerry Weaver</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#johnCarter"><i class="fas fa-heartbeat small"></i>John Carter</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#lucyKnight"><i class="fas fa-heartbeat small"></i>Lucy Knight</a><br /></li>
+						<li class="stafflist-li"><a class="stafflist" href="#carolHataway"><i class="fas fa-heartbeat small"></i>Carol Hataway</a><br /></li>
+					</ul>
+				</nav>
+			</div>
+		<hr class="form-hr">
 
 
 		</div>
 
 		<section>
 			<div class="container-md">
-
-	<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 						<h5 id="jeanneNemar">Jeanne Nemar</h5>
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 							<div class="presentation">
@@ -77,15 +104,9 @@
 							</div> //presentation
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
 								<div class="calendar">
 									<img src="assets/images/calendar.png" alt="">
 								</div>
-								////////////////
 							</div> //pratique
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 						<div class="experience">
@@ -112,11 +133,6 @@
 							</div> //presentation
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								////////////////
 								<div class="calendar">
 									<img src="assets/images/calendar.png" alt="">
 								</div>
@@ -147,11 +163,6 @@
 							</div> //presentation
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
 								<div class="calendar">
 									<img src="assets/images/calendar.png" alt="">
 								</div>
@@ -182,11 +193,6 @@
 							</div> //presentation
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
 								<div class="calendar">
 									<img src="assets/images/calendar.png" alt="">
 								</div>
@@ -199,399 +205,10 @@
 						</div>
 						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
 				</div>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="robertoRomano">Roberto Romano</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait12.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								////////////////
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								////////////////
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="jamilaFakiri">Jamil Fakiri</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait13.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						/////////////////////////////////////////////////////////////////////////////////////////////////
-				</div>
-				<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="claudeGalien">Claude Galien</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait14.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="virginieHenderson">Virginie Henderson</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait15.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="charlotteCordee">Charlotte Cordée</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait16.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="dougRoss">Douglassette Ross</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait17.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								///////////////////
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="lukaKovak">Lucie Kovak</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait18.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="abbyLockhart">Abby Lockhart</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait19.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-				////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="jeanneBoulet">Jeanne Boulet</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait20.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-				/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="peterBenton">Petra Benton</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait8.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-				///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="kerryWeaver">Kerry Weaver</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait8.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<!-- /////////////////// -->
-								<div class="map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-								</div>
-								<!-- //////////////// -->
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								////////////////
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-
-
-	<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			</div>
 		</section>
 		<hr>
 		<footer>
-
 			<div class="footer-links">
 				<i class="fas fa-user-md"></i>
 				<a href="#" target="_blank" title="Cliquez !"><p>Features</p></a>
@@ -600,7 +217,6 @@
 				<a href="#" target="_blank" title="Cliquez !"><p>Login</p></a>
 			</div>
 			<p class="copyright">©2020 Alix Pelletier</p>
-
 		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
