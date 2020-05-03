@@ -338,10 +338,6 @@ main {
   margin-left: 1.1rem;
 }
 
-.file {
-	margin-top: 30px;
-}
-
 footer {
 	display: flex;
 	justify-content: space-between;
@@ -811,6 +807,14 @@ iframe {
 	margin-bottom: 0.8rem;
 }
 
+
+.file {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+	margin-top: 30px;
+}
+
 i.fas.fa-heartbeat.small {
 	font-size: 1.3em;
 	margin-right: 1rem;
@@ -834,4 +838,24 @@ li.stafflist-li {
 a.stafflist {
   line-height: 2.1rem;
   margin-left: 1rem;
+}
+
+.pratique {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.well-block {
+    background-color: #fff;
+    border: 1px solid #e9e6e8;
+    padding: 1rem;
+    width: 35rem;
+}
+
+.well-title {
+    margin-bottom: 40px;
+}
+
+.col-md-9 {
+  width: 40rem;
 }

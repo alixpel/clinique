@@ -9,6 +9,9 @@
 	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	  <!-- ICONS -->
 	  <script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
 	  <link rel="icon" href="assets/photos/favicon.ico" type="image/x-icon">
@@ -84,14 +87,9 @@
 
 		<section>
 			<div class="container-md">
-				<div class="map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				</div>
-	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 				<div class=file>
-			<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="jeanneNemar">Jeanne Nemar</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+					<div class="staff-text">
+							<h5 id="jeanneNemar">Jeanne Nemar</h5>
 							<div class="presentation">
 								<img class="roundpicture" src="assets/images/portrait8.jpg" alt="">
 								<div class="assets">
@@ -101,122 +99,99 @@
 										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
 									</ul>
 								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+							</div>
 						<div class="experience">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+					</div>
+					<div class="pratique">
+						<!-- <div class="container"> -->
+		          <!-- <div class="row"> -->
+		            <!-- <div class="col-md-9"> -->
+		              <div class="well-block">
+                    <div class="well-title">
+                      <h6>Questions? Book an Appointment</h6>
+                    </div>
+                    <form>
+											<!-- Form start -->
+	                    <div class="row">
+	                      <div class="col-md-6">
+	                        <div class="form-group">
+	                          <label class="control-label" for="name">Name</label>
+	                          <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+	                        </div>
+	                      </div>
+			                  <!-- Text input-->
+			                  <div class="col-md-6">
+		                      <div class="form-group">
+	                          <label class="control-label" for="email">Email</label>
+	                          <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+		                      </div>
+			                  </div>
+			                  <!-- Text input-->
+			                  <div class="col-md-6">
+		                      <div class="form-group">
+	                          <label class="control-label" for="date">Preferred Date</label>
+	                          <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md">
+		                      </div>
+			                  </div>
+			                  <!-- Select Basic -->
+			                  <div class="col-md-6">
+		                      <div class="form-group">
+	                          <label class="control-label" for="time">Preferred Time</label>
+	                          <select id="time" name="time" class="form-control">
+                              <option value="8:00 to 9:00">8:00 to 9:00</option>
+                              <option value="9:00 to 10:00">9:00 to 10:00</option>
+                              <option value="10:00 to 1:00">10:00 to 1:00</option>
+	                          </select>
+		                      </div>
+			                  </div>
+			                  <!-- Select Basic -->
+		                  	<div class="col-md-12">
+		                      <div class="form-group">
+	                          <label class="control-label" for="appointmentfor">Appointment For</label>
+	                          <select id="appointmentfor" name="appointmentfor" class="form-control">
+	                              <option value="Service#1">Service#1</option>
+	                              <option value="Service#2">Service#2</option>
+	                              <option value="Service#3">Service#3</option>
+	                              <option value="Service#4">Service#4</option>
+	                          </select>
+		                      </div>
+		                  	</div>
+		                 		<!-- Button -->
+		                  	<div class="col-md-12">
+		                      <div class="form-group">
+		                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- form end -->
+		              </div>
+		            <!-- </div> -->
+		          <!-- </div> -->
+		        <!-- </div> -->
+					</div>
 				</div>
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="maloGenou">Malia Genou</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait9.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								////////////////
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-			<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-			<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-				<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="neelaRagostra">Neal Ragostra</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait10.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-				</div>
-				<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<div class=file>
-			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<h5 id="framboisePare">Framboise Paré</h5>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="presentation">
-								<img class="roundpicture" src="assets/images/portrait11.jpg" alt="">
-								<div class="assets">
-									<ul>
-										<li><i class="fas fa-paperclip"></i>Expertise : Lorem ipsum dolor sit amet, consectetur adipisici</li>
-										<li><i class="fas fa-paperclip"></i>Tarifs et remboursements : Lorem ipsum dolor sit amet, consectetur adipisi</li>
-										<li><i class="fas fa-paperclip"></i>Moyens de paiement : Lorem ipsum dolor sit amet, consectetu</li>
-									</ul>
-								</div>
-							</div> //presentation
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-							<div class="pratique">
-								<div class="calendar">
-									<img src="assets/images/calendar.png" alt="">
-								</div>
-								<!-- //////////////// -->
-							</div> //pratique
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
-						<div class="experience">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m<br>inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamc<br>o laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.7992591067616!2d2.397293698090357!3d48.86489856913339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8e2e1cc579%3A0x804a6d3d2240965e!2sPlace%20Gambetta%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1581370998423!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
 			</div>
 		</section>
-		<hr>
 		<footer>
-			<div class="footer-links">
-				<i class="fas fa-user-md"></i>
-				<a href="#" target="_blank" title="Cliquez !"><p>Features</p></a>
-				<a href="#" target="_blank" title="Cliquez !"><p>Blog</p></a>
-				<a href="#" target="_blank" title="Cliquez !"><p>Community</p></a>
-				<a href="#" target="_blank" title="Cliquez !"><p>Login</p></a>
-			</div>
-			<p class="copyright">©2020 Alix Pelletier</p>
+			<div class="footer-content">
+        <div class="footer-links">
+          <i class="fas fa-user-md"></i>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Features</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Blog</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Community</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Login</a>
+        </div>
+        <div class="copyright">
+          <p class="copyright-text">© 2020 &nbsp; Alix Pelletier</p>
+        </div>
+      </div>
 		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
