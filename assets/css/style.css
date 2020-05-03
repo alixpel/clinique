@@ -64,12 +64,18 @@ body {
 }
 
 header {
-	background-color: rgb(0, 38, 77);
+	/* background-color: rgb(0, 38, 77); */
 	padding-top: 20px;
 	padding-bottom: 4rem;
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
 	width: 90%;
+}
+
+.anatomy {
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
 }
 
 .d-flex.justify-content-between {
@@ -175,25 +181,27 @@ header {
 	width: 25%;
 }
 
-hr {
+hr.dotted-hr {
 	height: 1px;
-  background-image: linear-gradient(90deg, grey, grey 75%, transparent 75%, transparent 100%);
+  background-image: linear-gradient(90deg, #B5B5B5, #B5B5B5 75%, transparent 75%, transparent 100%);
   background-size: 20px 1px;
   border: none;
 	margin: 0px;
 }
 
+hr.simple-hr {
+  width: 94%;
+  border: 0.5px solid #E4E4E4;
+}
+
 main {
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 }
 
 .main-explore {
 	display: flex;
-	/* flex-direction: row; */
-	/* align-content: space-between; */
-	/* flex-wrap: wrap; */
-	padding: 0rem;
-	width: 79%;
+	padding: 2rem 0rem 1rem 0rem;
+	width: 86%;
 	margin: auto;
 }
 
@@ -217,6 +225,7 @@ main {
 	align-items: center;
 	justify-content: flex-start;
 	margin-bottom: 0.4rem;
+  font-size: 2rem;
 }
 
 .explore-two {
@@ -226,7 +235,7 @@ main {
 	justify-content: space-between;
 	align-content: center;
 	margin-right: 1.5rem;
-	width: 100%;
+	width: 93%;
 }
 
 .explore-two-two {
@@ -257,8 +266,7 @@ main {
 }
 
 .card.text-left.single {
-	margin-left: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .card-body {
@@ -270,10 +278,21 @@ main {
 }
 
 .jumbotron {
-	margin-top: 2rem;
-	padding: 2rem 1.5rem 3.3rem 1.5rem;
-	border: 1px solid GAINSBORO;
+	margin-top: 3.8rem;
+	padding: 2rem 1.9rem 2rem 1.9rem;
+	border: 3px solid #f7f7f7;
+  border-radius: 0.3rem;
+  background-color: white;
 	width: 100%;
+}
+
+.jumbotron-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 1rem;
 }
 
 .directionboard {
@@ -349,14 +368,24 @@ p.text-left {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
-p.text-justify {
-	font-family: 'Roboto', sans-serif;
+p.topic {
+  font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 0.9rem;
-	text-align: justify;
+	font-size: 1rem;
+  line-height: 1.5rem;
+  color: #5E6977
+}
+
+p.jumbotron-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	text-align: left;
 	line-height: 1.5rem;
+  color: #86939e;
 }
 
 p.text-center {
@@ -400,15 +429,18 @@ h1 {
 h3 {
 	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 0.98rem;
+	font-weight: 400;
+	font-size: 1.4rem;
+  line-height: 2rem;
+  color: #43484d;
 }
 
 .h4-left {
 	text-align: left;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 1.6rem;
+	font-size: 2.6rem;
+  color: #43484d;
 }
 
 .h4-center {
@@ -430,7 +462,8 @@ h5.card-title {
 /* liens */
 a.fiches {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
+  color: #5e6977;
 }
 
 /* icônes */
@@ -441,9 +474,10 @@ i {
 }
 
 i.fas.fa-heartbeat {
-	font-size: 1.1em;
+	font-size: 1.6em;
 	margin-right: 10px;
 	margin-left: 0px;
+  color: #E4E4E4;
 }
 
 i.fas.fa-book, i.fas.fa-book-reader, i.fas.fa-book-medical {
@@ -451,10 +485,6 @@ i.fas.fa-book, i.fas.fa-book-reader, i.fas.fa-book-medical {
   font-size: 3rem;
 }
 
-i.fas.fa-heartbeat {
-	color: grey;
-	font-size: 2rem;
-}
 
 .fas.fa-envelope-open-text {
 	float: left;
@@ -462,11 +492,13 @@ i.fas.fa-heartbeat {
 
 i.fas.fa-file-medical {
 	font-size: 1em;
-	color: grey;
+	color: #caccd4;
 }
 
-i.far.fa-comments::before {
-	text-align: right;
+i.far.fa-comments {
+  color: #E4E4E4;
+  font-size: 3.8rem;
+  padding-bottom: 1.2rem;
 }
 
 /* listes */
@@ -538,6 +570,10 @@ img {
 
 /* Boutons */
 
+.btnGroupDrop1 {
+  background-color: #7dc855;
+  border: 1px solid #7dc855;
+}
 .btn.btn-outline-info {
 	float: right;
 }
@@ -555,10 +591,13 @@ img {
 }
 
 .btn.btn-success.btn-lg {
-	height: 2.5rem;
+	height: 2.8rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 0.9rem;
-	margin-top: 1.8rem;
+	font-size: 1rem;
+	margin-top: 2.8rem;
+  padding-top: 0.6rem;
+  background-color: #7dc855;
+  border: 0px;
 }
 
 /* input - label */
