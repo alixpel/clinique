@@ -140,8 +140,6 @@ header {
 	color: grey;
 }
 
-/* Accueil //////////////////*/
-
 .flex-column {
 	border: 1px solid grey;
 }
@@ -700,7 +698,62 @@ a {
     background-color: transparent;
 }
 
-/* Fiches pros //////////////////*/
+/* FORM */
+
+header.form-header {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  padding: 1.3rem 0rem 2rem 0rem;
+}
+
+.rdv {
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+hr.form-hr {
+  height: 1px;
+  background-image: linear-gradient(90deg, #B5B5B5, #B5B5B5 40%, transparent 40%, transparent 100%);
+  background-size: 20px 1px;
+  border: none;
+	margin: 1.8rem 0rem 2rem 0rem;
+}
+
+fieldset {
+  border: 3px solid #e6e9ec;
+  border-radius: 0.3rem;
+  padding: 2rem 2rem 3rem 2rem;
+  background-color: rgb(250, 250, 250);
+	width: 100%;
+}
+
+h1.form-main-title {
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+input.form-control, #exampleFormControlSelect1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+label.form-page-label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.btn-info {
+  background-color: #7dc855;
+  border: none;
+  font-size: 1rem;
+  padding: 0.4rem 1.6rem;
+  margin-top: 1rem;
+}
+
+/* STAFF */
 
 .presentation {
 	display: flex;

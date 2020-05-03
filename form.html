@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		
+
 		<!-- RESPONSIVE -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	  <!-- BOOTSTRAP -->
@@ -20,101 +20,109 @@
 	  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900|Open+Sans:300,400,400i,600,600i,700,700i,800,800i|Roboto:100,300,300i,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
 
   		<title>Centre de Santé</title>
-  	</head>
-    <body>
-
-          <div class="container">
-            <header>
-
-              <div class=logo>
-                <a href="index.html"><p><span><i class="fas fa-user-md"></i>Centre de Santé Gambetta</span></p></a>
-              </div>
-            </header>
+	</head>
+  <body>
+		<header class="form-header">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+          <div class=logo><!--petit logo-->
+            <p class="top-logo"><i class="fas fa-user-md"></i>Centre de Santé</p>
           </div>
-
-
-
-        <div class="container">
-
-          <h3>Formulaire de rendez-vous</h3>
-
-          <hr>
-
-            <form>
-
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name">
+          <div class="quicklink"><!-- liens en haut dropdown-->
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-outline-light">Home</button>
+              <button type="button" class="btn btn-outline-light">Archive</button>
+              <button type="button" class="btn btn-outline-light">Browse</button>
+              <button type="button" class="btn btn-outline-light">Mon espace</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="form.html">Formulaire de rdv</a>
+                  <a class="dropdown-item" href="bosses.html">Notre direction</a>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Médecine générale</option>
-                  <option>Pédiatrie</option>
-                  <option>gynécologie/obstétrique</option>
-                  <option>Soins Infirmiers</option>
-                  <option>Addictologie</option>
-                  <option>Infectiologie</option>
-                  <option></option>
-                </select>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-
-              </div>
-              <div class="form-group">
-                <label for="inputAddress">Adresse</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1, rue Centrale">
-              </div>
-              <div class="form-group">
-                <label for="inputAddress2">Complément d'adresse</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Montée, appartement, étage">
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">Ville</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-
-                <div class="form-group col-md-2">
-                  <label for="inputZip">Code postal</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-              </div>
-
-              <div class="mb-3">
-                <label for="inputTextarea">Commentaire</label>
-                <input type="text" class="form-control" id="inputTextarea" placeholder="Commentaire">
-              </div>
-
-              <button type="submit" class="btn btn-info">Envoi</button>
-
-
-            </form>
-          </div>
-
-          <footer>
-
-            <div class="footer-links">
-              <i class="fas fa-user-md"></i>
-              <a href="#" target="_blank" title="Cliquez !"><p>Features</p></a>
-              <a href="#" target="_blank" title="Cliquez !"><p>Blog</p></a>
-              <a href="#" target="_blank" title="Cliquez !"><p>Community</p></a>
-              <a href="#" target="_blank" title="Cliquez !"><p>Login</p></a>
             </div>
-            <p class="copyright">©2020 Alix Pelletier</p>
+          </div>
+        </div>
+      </div>
+			<h1 class="form-main-title">Centre de Santé Framboise Paré</h1>
+		</header>
+    <div class="container">
+			<div class="rdv">
+	      <h3>Formulaire de rendez-vous</h3>
+	      <hr class="form-hr">
+	      <form>
+					<fieldset>
+		        <div class="form-row">
+		          <div class="col">
+		            <input type="text" class="form-control" placeholder="First name">
+		          </div>
+		          <div class="col">
+		            <input type="text" class="form-control" placeholder="Last name">
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <label for="exampleFormControlSelect1" class="form-page-label">Example select</label>
+		          <select class="form-control" id="exampleFormControlSelect1">
+		            <option>Médecine générale</option>
+		            <option>Pédiatrie</option>
+		            <option>gynécologie/obstétrique</option>
+		            <option>Soins Infirmiers</option>
+		            <option>Addictologie</option>
+		            <option>Infectiologie</option>
+		            <option></option>
+		          </select>
+		        </div>
+		        <div class="form-row">
+		          <div class="form-group col-md-6">
+		            <label for="inputEmail4" class="form-page-label">Email</label>
+		            <input type="email" class="form-control" id="inputEmail4" name="user_mail" placeholder="e-mail">
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <label for="inputAddress" class="form-page-label">Adresse</label>
+		          <input type="text" class="form-control" id="inputAddress" placeholder="1, rue Centrale">
+		        </div>
+		        <div class="form-group">
+		          <label for="inputAddress2" class="form-page-label">Complément d'adresse</label>
+		          <input type="text" class="form-control" id="inputAddress2" placeholder="Montée, appartement, étage">
+		        </div>
+		        <div class="form-row">
+		          <div class="form-group col-md-6">
+		            <label for="inputCity" class="form-page-label">Ville</label>
+		            <input type="text" class="form-control" id="inputCity">
+		          </div>
+		          <div class="form-group col-md-2">
+		            <label for="inputZip" class="form-page-label">Code postal</label>
+		            <input type="text" class="form-control" id="inputZip">
+		          </div>
+		        </div>
+		        <div class="mb-3">
+		          <label for="inputTextarea" class="form-page-label">Commentaire</label>
+		          <input type="text" class="form-control" id="inputTextarea" placeholder="Commentaire">
+		        </div>
+		        <button type="submit" class="btn btn-info">Envoi</button>
+					</fieldset>
+			  </form>
+			</div>
+    </div>
+		<footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <i class="fas fa-user-md"></i>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Features</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Blog</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Community</a>
+          <a class="fiches" href="#" target="_blank" title="Cliquez !">Login</a>
+        </div>
+        <div class="copyright">
+          <p class="copyright-text">© 2020 &nbsp; Alix Pelletier</p>
+        </div>
+      </div>
+    </footer>
 
-          </footer>
-
-          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-          </body>
-          </html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
