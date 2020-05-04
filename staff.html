@@ -89,7 +89,7 @@
 			<div class="container-md">
 				<div class=file>
 					<div class="staff-text">
-							<h5 id="jeanneNemar">Jeanne Nemar</h5>
+							<div class="member-name-and-logo"><h3 id="jeanneNemar" class="staff-member-name"><i class="fas fa-heartbeat fa-lg"></i>Jeanne Nemar</h3></div>
 							<div class="presentation">
 								<img class="roundpicture" src="assets/images/portrait8.jpg" alt="">
 								<div class="assets">
@@ -111,58 +111,75 @@
 		            <!-- <div class="col-md-9"> -->
 		              <div class="well-block">
                     <div class="well-title">
-                      <h6>Questions? Book an Appointment</h6>
+                      <h7>Prise de rendez-vous</h7>
                     </div>
                     <form>
 											<!-- Form start -->
 	                    <div class="row">
 	                      <div class="col-md-6">
 	                        <div class="form-group">
-	                          <label class="control-label" for="name">Name</label>
-	                          <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+	                          <label class="control-label staff-page" for="name">Nom</label>
+	                          <input id="name" name="name" type="text" placeholder="Nom" class="form-control input-md input-text-staff">
 	                        </div>
 	                      </div>
-			                  <!-- Text input-->
-			                  <div class="col-md-6">
+												<div class="col-md-6">
+												 <div class="form-group">
+													 <label class="control-label staff-page" for="prenom">Prénom</label>
+													 <input id="name" name="prenom" type="text" placeholder="Prénom" class="form-control input-md input-text-staff">
+												 </div>
+											 	</div>
+												<div class="col-md-6">
 		                      <div class="form-group">
-	                          <label class="control-label" for="email">Email</label>
-	                          <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+	                          <label class="control-label staff-page" for="sexe">Sexe</label>
+	                          <select id="name" name="sexe" class="form-control input-text-staff">
+                              <option class="option-text" value="feminin">Féminin</option>
+                              <option class="option-text" value="masculin">Masculin</option>
+	                          </select>
 		                      </div>
 			                  </div>
 			                  <!-- Text input-->
 			                  <div class="col-md-6">
 		                      <div class="form-group">
-	                          <label class="control-label" for="date">Preferred Date</label>
-	                          <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md">
+	                          <label class="control-label staff-page" for="email">E-mail</label>
+	                          <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md input-text-staff">
+		                      </div>
+			                  </div>
+			                  <!-- Text input-->
+			                  <div class="col-md-6">
+		                      <div class="form-group">
+	                          <label class="control-label staff-page" for="date">Date</label>
+	                          <input id="date" name="date" type="text" placeholder="Date" class="form-control input-md input-text-staff">
 		                      </div>
 			                  </div>
 			                  <!-- Select Basic -->
 			                  <div class="col-md-6">
 		                      <div class="form-group">
-	                          <label class="control-label" for="time">Preferred Time</label>
-	                          <select id="time" name="time" class="form-control">
-                              <option value="8:00 to 9:00">8:00 to 9:00</option>
-                              <option value="9:00 to 10:00">9:00 to 10:00</option>
-                              <option value="10:00 to 1:00">10:00 to 1:00</option>
+	                          <label class="control-label staff-page" for="time">Horaire</label>
+	                          <select id="time" name="time" class="form-control input-text-staff">
+                              <option class="option-text" value="8:00 to 9:00">de 8:00 à 9:00</option>
+                              <option class="option-text" value="9:00 to 10:00">de 9:00 à 10:00</option>
+                              <option class="option-text" value="10:00 to 1:00">de 10:00 à 1:00</option>
 	                          </select>
 		                      </div>
 			                  </div>
 			                  <!-- Select Basic -->
 		                  	<div class="col-md-12">
 		                      <div class="form-group">
-	                          <label class="control-label" for="appointmentfor">Appointment For</label>
-	                          <select id="appointmentfor" name="appointmentfor" class="form-control">
-	                              <option value="Service#1">Service#1</option>
-	                              <option value="Service#2">Service#2</option>
-	                              <option value="Service#3">Service#3</option>
-	                              <option value="Service#4">Service#4</option>
+	                          <label class="control-label staff-page" for="appointmentfor">Service</label>
+	                          <select id="appointmentfor" name="appointmentfor" class="form-control input-text-staff">
+	                              <option class="option-text" value="Service#1">Médecine Générale</option>
+	                              <option class="option-text" value="Service#2">Pédiatrie</option>
+	                              <option class="option-text" value="Service#3">Gynécologie</option>
+	                              <option class="option-text" value="Service#4">Addictologie</option>
+																<option class="option-text" value="Service#4">Soins infirmiers</option>
+																<option class="option-text" value="Service#4">Sage-femme</option>
 	                          </select>
 		                      </div>
 		                  	</div>
 		                 		<!-- Button -->
 		                  	<div class="col-md-12">
 		                      <div class="form-group">
-		                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+		                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Envoi</button>
                           </div>
                         </div>
                       </div>

@@ -713,9 +713,10 @@ h1.form-main-title {
   font-size: 2rem;
 }
 
-input.form-control, #exampleFormControlSelect1 {
+input.form-control, #exampleFormControlSelect1, .option-text, #time, #appointmentfor, #name {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  font-size: 0.95rem;
 }
 
 label.form-page-label {
@@ -736,12 +737,37 @@ label.form-page-label {
 
 .staff-columns {
   margin: auto;
-  width: 65%;
+  width: 100%;
+}
+
+.map {
+	border: 1px solid rgba(250, 250, 250, 1);
+  width: 65.3%;
+  margin: auto;
+}
+
+.file {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+	margin-top: 30px;
+  border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.staff-text {
+	border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.member-name-and-logo {
+  /* width: fit-content; */
+  background-color: #f0f0f0;
+  padding: 0.3rem 1rem 0rem 0.5rem;
+  border-radius: 0.3rem 0.3rem 0rem 0rem;
 }
 
 .presentation {
 	display: flex;
-	border: 1px solid grey;
+	border: 1px solid rgba(250, 250, 250, 1);
 
 }
 
@@ -749,29 +775,19 @@ img.roundpicture {
 	border-radius: 50%;
 	margin: 8px;
 	box-shadow: none;
+  max-width: 100%;
+  height: auto;
 }
 
 .assets {
-	display: flex;
-	justify-content: flex-start;
-	width: 87%;
-	border: 1px solid grey;
+	border: 1px solid rgba(250, 250, 250, 1);
 	font-size: 0.8em;
 	padding: 10px;
-	margin:10px;
 	background-color: white;
 }
 
 .pratique {
-	display: flex;
-	border: 1px solid grey;
-
-}
-
-.map {
-	border: 1px solid grey;
-  width: 65.3%;
-  margin: auto;
+  border: 1px solid rgba(250, 250, 250, 1);
 }
 
 iframe {
@@ -780,17 +796,32 @@ iframe {
 
 .calendar {
 	display: flex;
-	border: 1px solid grey;
+	border: 1px solid rgba(250, 250, 250, 1);
 	width: 25%;
 }
 
 .experience {
-	border: 1px solid grey;
+	border: 1px solid rgba(250, 250, 250, 1);
 	text-align: justify;
 	padding: 10px;
 }
 
-.stafflist {
+h3.staff-member-name {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+  line-height: 2rem;
+  color: #43484d;
+}
+
+h7 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+  color: #43484d;
+}
+
+a.stafflist {
 	color: rgb(80, 80, 80);
 }
 
@@ -799,20 +830,13 @@ iframe {
 	text-decoration: none;
 }
 
-.listing {
+ul.listing {
   margin: 0;
   /* height: 160px; */
   /* columns: 3; */
 	margin-top: 40px;
 	margin-bottom: 0.8rem;
-}
-
-
-.file {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-	margin-top: 30px;
+  width: 33.3%;
 }
 
 i.fas.fa-heartbeat.small {
@@ -828,7 +852,6 @@ nav {
 }
 
 li.stafflist-li {
-  width: 15rem;
   background-color: rgb(240, 240, 240);
   padding: 0.3rem 0.1rem 0.1rem 0.1rem;
   margin-bottom: 0.1rem;
@@ -846,10 +869,12 @@ a.stafflist {
 }
 
 .well-block {
-    background-color: #fff;
-    border: 1px solid #e9e6e8;
-    padding: 1rem;
-    width: 35rem;
+  border: 3px solid #e6e9ec;
+  border-radius: 0.3rem;
+  padding: 2rem 2rem 3rem 2rem;
+  background-color: rgb(250, 250, 250);
+  padding: 1rem;
+  width: 31rem;
 }
 
 .well-title {
@@ -858,4 +883,20 @@ a.stafflist {
 
 .col-md-9 {
   width: 40rem;
+}
+
+label.staff-page {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+  font-size: 0.9rem;
+  margin: .4rem 0;
+}
+
+.input-text-staff, .option-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.9rem;
 }
