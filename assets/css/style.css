@@ -166,6 +166,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+	margin: 0rem 2rem;
 	text-align: center;
 }
 
@@ -201,6 +202,7 @@ hr.staff-hr {
 
 .main-explore {
 	display: flex;
+	justify-content: center;
 	padding: 2rem 0rem 1rem 0rem;
 	width: 86%;
 	margin: auto;
@@ -211,7 +213,7 @@ hr.staff-hr {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 66%;
+	width: 56%;
 }
 
 .littleheader {
@@ -234,7 +236,7 @@ hr.staff-hr {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-content: center;
 	margin-right: 1.5rem;
 	width: 93%;
